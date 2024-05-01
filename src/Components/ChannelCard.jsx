@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import { Box, CardMedia, CardContent, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { CheckCircle } from "@mui/icons-material";
 import { demoProfilePicture } from "../Utils/Constants";
 
+// eslint-disable-next-line react/prop-types
 const ChannelCard = ({ channelDetail, marginTop }) => {
     return (
         <Box sx={{ boxShadow: "none", borderRadius: "20px", display: "flex", justifyContent: "center", alignItems: "center", width: { xs: "356px", md: "320px" }, height: "326px", margin: "auto", marginTop }}>

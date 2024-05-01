@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Stack, Box } from "@mui/material";
 import { VideoCard, ChannelCard } from "./index";
 import { Loading } from "./index";

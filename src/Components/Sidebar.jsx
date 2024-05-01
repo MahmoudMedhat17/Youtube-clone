@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Stack } from "@mui/material";
 import { categories } from "../Utils/Constants";
 
@@ -5,7 +6,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
     return (
         <Stack
             direction="row"
-            sx={{ overflowY: "auto", flexDirection: { md: "column" }, height: { sx: "auto", md: "95%" }, px:{sx:0, md:2} }}
+            sx={{ overflowY: "auto", flexDirection: { md: "column" }, height: { sx: "auto", md: "95%" }, px: { sx: 0, md: 2 } }}
         >
             {
                 categories.map((category) => (

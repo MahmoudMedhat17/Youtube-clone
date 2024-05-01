@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Typography, Card, CardMedia, CardContent } from "@mui/material";
 import { demoChannelTitle, demoChannelUrl, demoThumbnailUrl, demoVideoTitle, demoVideoUrl } from "../Utils/Constants";
 import { CheckCircle } from "@mui/icons-material";
